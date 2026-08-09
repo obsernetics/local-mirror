@@ -3,9 +3,6 @@
 A hands-on lab for the Obsernetics blog series on running a **local package mirror**
 so machines can keep getting **security patches and packages during internet outages**.
 
-آزمایشگاه عملی مجموعه‌ی وبلاگ Obsernetics برای راه‌اندازی یک Mirror محلی packageها،
-تا سیستم‌ها حتی هنگام قطعی اینترنت بتوانند وصله‌های امنیتی و packageها را دریافت کنند.
-
 > Scope: this is only for keeping systems patched and packages available (especially
 > during connectivity outages). It is **not** a tool to bypass filtering or reach
 > blocked content.
