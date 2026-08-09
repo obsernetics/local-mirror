@@ -1,0 +1,6 @@
+// Only auto-upgrade from the local Obsernetics mirror origin.
+// The mirror's Release file sets Origin: Obsernetics, Suite: stable.
+Unattended-Upgrade::Allowed-Origins {
+        "Obsernetics:stable";
+};
+Unattended-Upgrade::Automatic-Reboot "false";

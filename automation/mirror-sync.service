@@ -1,0 +1,8 @@
+[Unit]
+Description=Rebuild and re-sign the local package mirror indexes
+After=network.target
+
+[Service]
+Type=oneshot
+User=ops
+ExecStart=/usr/local/bin/mirror-sync.sh
